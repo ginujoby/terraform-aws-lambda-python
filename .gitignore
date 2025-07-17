@@ -1,0 +1,54 @@
+
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude sensitive variables files
+*.tfvars
+*.tfvars.json
+
+# Ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore lock files
+.terraform.lock.hcl
+
+# Ignore provider binary directory
+terraform.d/
+
+# Ignore any local backup files
+*.backup
+
+# Ignore .DS_Store files on macOS
+.DS_Store
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignore any local environment files
+.env
+
+# Ignore Python packages
+src/packages/*
+
+# Ignore zip files for Lambda 
+.output/*
+
+
